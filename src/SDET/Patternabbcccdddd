@@ -1,0 +1,16 @@
+public class Patternabbcccdddd {
+
+	public static void main(String[] args) {
+		int k = 1;
+		for (char c = 'a'; c <= 'z'; c++) {        
+			for (int j = 1; j <= k; j++) {
+				System.out.print(c + " ");
+
+			}
+			k++;
+			System.out.println("");
+		}
+		
+	}
+
+}
