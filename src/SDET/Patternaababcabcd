@@ -1,0 +1,14 @@
+public class Patternaababcabcd {
+
+	public static void main(String[] args) {
+
+		for (int j = 1; j <= 5; j++) {
+			for (char c = 'a'; c < 'a' + j; c++) {
+				System.out.print(c + " ");
+			}
+			System.out.println("");
+		}
+
+	}
+
+}
