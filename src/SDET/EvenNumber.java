@@ -13,15 +13,20 @@ public class EvenNumber {
 
 		boolean even = true;
 
-		if (intNum <= 1) {
-			even = false;
-		} else {
-			for (int i = 2; i < intNum; i++)
-				if (intNum / i == 0) { //checks the result is zero
-					even = false;
-				}
-		}
-
+		// if (intNum <= 1) {
+		// 	even = false;
+		// } else {
+		// 	for (int i = 2; i < intNum; i++)
+		// 		if (intNum / i == 0) { //checks the result is zero
+		// 			even = false;
+		// 		}
+		// }
+		
+    if (intNum % 2 == 0) {
+ even = true;
+    } else {
+  even = false;
+    }
 		if (even) {
 			System.out.println("Even Number");
 		} else {
